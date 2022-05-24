@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base.html' %}
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} To Do List | About me {% endblock %}</title>
+</head>
+<body>
+
+
+{% block content %}
+<h1><em>My name is {{fname}} {{lname}}</em></h1>
+<a class="btn btn-primary" href="http://127.0.0.1:8000/">Home</a>
+{% endblock %}
+
+</body>
+</html>
