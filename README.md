@@ -1,5 +1,5 @@
 # Django_HW3
-
+Publisher.objects.all()
 
 ### Task#1: Virtual Environment
 
