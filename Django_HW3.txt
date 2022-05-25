@@ -1,0 +1,34 @@
+
+1)  In ToDoList modlels.py
+        from django.db import models
+
+        class Puplisher (models.Model):
+           name = models.CharField(max_length=100, help_text='the name of the puplisher')
+
+           def _str_(self):
+               return self.name
+
+2) In terminal
+    python manage.py showmigrations
+    python manage.py migrate
+
+3)  In terminal -> CURD commands
+      python manage.py shell
+      
+      creat:
+      from ToDoList.models import Puplisher 
+      P1 = Puplisher.objects.create(first_name="Ali")  
+      P2 = Puplisher.objects.create(first_name="Asma") 
+
+      get all:
+      Puplisher.objects.all()
+
+       delete:
+       Puplisher.objects.get( name = 'Ali').delete()
+
+       
+    
+      
+      
+
+
