@@ -13,6 +13,8 @@
     python manage.py migrate
 
 3)  In terminal -> CURD commands
+      python manage.py shell
+      
       creat:
       from ToDoList.models import Puplisher 
       P1 = Puplisher.objects.create(first_name="Ali")  
