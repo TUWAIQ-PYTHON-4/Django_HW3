@@ -12,7 +12,9 @@ You learned how to create a new Django project using PyCharm IDE which provides 
 
 
 - How to create a virtual environment?
+
     in the project path, command:
+    
     python -m venv .venv
 
 
